@@ -43,36 +43,39 @@ def define_perf_name_to_score():
     # second round = 1
     # audition, first round = 0
     name_score_table = NameScoreTable()
-    name_score_table.append(NameScorePair('Dossin', 0, 2002))
-    name_score_table.append(NameScorePair('Ali', 0, 2008))
-    name_score_table.append(NameScorePair('Day', 0, 2006))
-    name_score_table.append(NameScorePair('Jia', 1, 2004)) #check ran jia and jia ran
-    name_score_table.append(NameScorePair('LeeKoeun', 3, 2004))
-    name_score_table.append(NameScorePair('LinTao', 2, 2002))
-    name_score_table.append(NameScorePair('McNamara', 0, 2008))
-    name_score_table.append(NameScorePair('Sinkev', 4, 2004))
-    name_score_table.append(NameScorePair('YeSijing', 0, 2008))
-    name_score_table.append(NameScorePair('Denisova', 3, 2008))
-    name_score_table.append(NameScorePair('MunA', 5, 2015))
-    name_score_table.append(NameScorePair('Zhou', 3, 2011))
-    name_score_table.append(NameScorePair('Sladek', 1, 2011))
-    name_score_table.append(NameScorePair('KimSuyeon', 5, 2011))
-    name_score_table.append(NameScorePair('Tetzloff', 2, 2008))
-    name_score_table.append(NameScorePair('Gasanov', 1, 2009))
-    name_score_table.append(NameScorePair('Ko', 3, 2008))
-    name_score_table.append(NameScorePair('Tan', 0, 2008))
-    name_score_table.append(NameScorePair('Khmara', 1, 2008))
-    name_score_table.append(NameScorePair('Kociuban', 3, 2008))
-    name_score_table.append(NameScorePair('Levitsky', 4, 2008))
-    name_score_table.append(NameScorePair('Nikiforov', 5, 2008))
-    name_score_table.append(NameScorePair('ChenC', 1, 2006))
-    name_score_table.append(NameScorePair('Yang', 0, 2006))
-    name_score_table.append(NameScorePair('Solom', 0, 2004))
-    name_score_table.append(NameScorePair('Lim', 0, 2002))
-    name_score_table.append(NameScorePair('LuEric', 6, 2013))
-    name_score_table.append(NameScorePair('GonzalezJ', 1, 2014))
-    name_score_table.append(NameScorePair('Verbaite', 0, 2008))
-    name_score_table.append(NameScorePair('Avdeeva', 1, 2006))
+    name_score_table.extend(( # double parenthesis to extend with a tuple
+        NameScorePair('Dossin', 0, 2002),
+        NameScorePair('Ali', 0, 2008),
+        NameScorePair('Day', 0, 2006),
+        NameScorePair('Jia', 1, 2004), #check ran jia and jia ran
+        NameScorePair('LeeKoeun', 3, 2004),
+        NameScorePair('LinTao', 2, 2002),
+        NameScorePair('McNamara', 0, 2008),
+        NameScorePair('Sinkev', 4, 2004),
+        NameScorePair('YeSijing', 0, 2008),
+        NameScorePair('Denisova', 3, 2008),
+        NameScorePair('MunA', 5, 2015),
+        NameScorePair('Zhou', 3, 2011),
+        NameScorePair('Sladek', 1, 2011),
+        NameScorePair('KimSuyeon', 5, 2011),
+        NameScorePair('Tetzloff', 2, 2008),
+        NameScorePair('Gasanov', 1, 2009),
+        NameScorePair('Ko', 3, 2008),
+        NameScorePair('Tan', 0, 2008),
+        NameScorePair('Khmara', 1, 2008),
+        NameScorePair('Kociuban', 3, 2008),
+        NameScorePair('Levitsky', 4, 2008),
+        NameScorePair('Nikiforov', 5, 2008),
+        NameScorePair('ChenC', 1, 2006),
+        NameScorePair('Yang', 0, 2006),
+        NameScorePair('Solom', 0, 2004),
+        NameScorePair('Lim', 0, 2002),
+        NameScorePair('LuEric', 6, 2013),
+        NameScorePair('GonzalezJ', 1, 2014),
+        NameScorePair('Verbaite', 0, 2008),
+        NameScorePair('Avdeeva', 1, 2006),
+        # To be continued
+    ))
     name_score_table.append(NameScorePair('MorozovS', 1, 2006))
     name_score_table.append(NameScorePair('Park', 1, 2006))
     name_score_table.append(NameScorePair('Savitski', 6, 2006))
